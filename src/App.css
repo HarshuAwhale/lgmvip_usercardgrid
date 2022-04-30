@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+body{
+  background-image: linear-gradient(to right, #6d286c, #434c8e, #006596, #00778c, #46857f);
+  font-family:'poppins',sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500vh;
+}
+
+.App {
+  /* text-align: center; */
+font-size: 1.3rem;
+color: #fff;
+}
+
+.App li{
+ list-style: none;
+ text-align: center;
+}
+
+.App ul{
+  margin-bottom: 5%;
+}
+
+.App button{
+  font-size: 1.2rem;
+  background-image: linear-gradient(to bottom, #23092f, #4b134f, #7b196d, #b11a85, #eb1298);
+background: rgb(196, 10, 112);
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 7px 7px;
+  cursor: pointer;
+  width: 15%;
+}
+ 
+.App-header {
+  text-align: left;
+  background-image: linear-gradient(to right bottom, #dc8cd9, #9eaeff, #64c8fe, #6dd8e4, #a1e1ca);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+
+}
+
+.Navbar {
+  
+  padding-left: 70px;
+  padding-right: 30px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.Brand {
+  width: 100%;
+  /* display: flex; */
+  font-size: 33px;
+  background-color: rgb(196, 10, 112);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 0%;
+  margin-top: 30px;
+}
+
+/* button {
+  display: flex;
+  background-color: rgb(250, 143, 56);
+  color: black;
+  z-index: 10;
+  margin-left: 30%;
+  top: 90%;
+  width: 10%;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+} */
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} 
+
+
+
